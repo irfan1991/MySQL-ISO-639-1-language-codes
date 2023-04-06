@@ -2,7 +2,7 @@
 CREATE TABLE `languages` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` char(49) CHARACTER SET utf8 DEFAULT NULL,
-  `iso_639-1` char(2) CHARACTER SET utf8 DEFAULT NULL,
+  `code` char(2) CHARACTER SET utf8 DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=136 ;
 
